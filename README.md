@@ -49,19 +49,19 @@ The configuration details of each machine may be found below. Note: Use the Mark
 
 Access Policies
 
-The machines on the internal network are not exposed to the public Internet.
+ - The machines on the internal network are not exposed to the public Internet.
 
-Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+ - Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-Add whitelisted IP addresses - Personal public IP address
+ - Add whitelisted IP addresses - Personal public IP address
 
-Machines within the network can only be accessed by - jump box provitioner.
+ - Machines within the network can only be accessed by - jump box provitioner.
 
-Which machine did you allow to access your ELK VM? - jump box provitioner.
+ - Which machine did you allow to access your ELK VM? - jump box provitioner.
 
-What was its IP address? - 10.1.0.4
+ - What was its IP address? - 10.1.0.4
 
-The Jump-Box-provitioner is able to connect via SSH to the Elk-Stack machine through port 22. In addition the Personal Host IP address is also able to access the Elk-Stack machine through port 5601
+ - The Jump-Box-provitioner is able to connect via SSH to the Elk-Stack machine through port 22. In addition the Personal Host IP address is also able to access the Elk-Stack machine through port 5601
 
 A summary of the access policies in place can be found in the table below.
 
