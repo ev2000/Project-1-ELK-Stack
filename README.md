@@ -19,12 +19,17 @@ https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/ansible.cfg
 
 This document contains the following details:
 
-Description of the Topologu
-Access Policies
-ELK Configuration
-Beats in Use
-Machines Being Monitored
-How to Use the Ansible Build
+- Description of the Topologu
+
+- Access Policies
+
+- ELK Configuration
+
+- Beats in Use
+
+- Machines Being Monitored
+
+- How to Use the Ansible Build
 
 Description of the Topology
 
