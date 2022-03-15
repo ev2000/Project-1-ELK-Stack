@@ -9,12 +9,12 @@ They can be used to either recreate the entire deployment pictured above. Altern
 
 Enter the playbook file:
 
-Install ELK:
+- Install ELK:
 https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/elkplaybook.yml
 
-Hosts: https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/Hosts
+- Hosts: https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/Hosts
 
-Ansible:
+- Ansible:
 https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/ansible.cfg
 
 This document contains the following details:
@@ -25,6 +25,7 @@ ELK Configuration
 Beats in Use
 Machines Being Monitored
 How to Use the Ansible Build
+
 Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
