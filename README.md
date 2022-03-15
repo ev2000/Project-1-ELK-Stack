@@ -100,7 +100,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-
+![](Images/dockerps.png)
 
 Target Machines & Beats
 
@@ -159,3 +159,11 @@ Bonus
  - nano ansible.cfg <----------(add remote_user=azureuser to which server you want to use)
 
  - run ansible-playbook my-playbook.yml <----------(ansible-playbook is the command to run the file)
+
+nano hosts
+
+![](Images/hostsfile.png)
+
+nano config
+
+![](Images/ansiblecfg.png)
