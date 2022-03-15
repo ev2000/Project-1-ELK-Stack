@@ -87,11 +87,15 @@ Install-ELK
 
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
 
-name: set maximum map count in sysctl/systemd
-name: docker.io
-name: instal pip3
-name: Install Docker module
-name: download and launch elk
+- name: set maximum map count in sysctl/systemd
+
+- name: docker.io
+
+- name: instal pip3
+
+- name: Install Docker module
+
+- name: download and launch elk
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
@@ -101,14 +105,15 @@ Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
 
-List the IP addresses of the machines you are monitoring: Web-1 10.0.0.5 , Web-2 10.0.0.6
+- List the IP addresses of the machines you are monitoring: Web-1 10.0.0.5 , Web-2 10.0.0.6
+
 We have installed the following Beats on these machines: -Specify which Beats you successfully installed: Filebeat , Metricbeat
 
 These Beats allow us to collect the following information from each machine: -In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
 
-Filebeat: Monitors log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would look at the log events and send them to ELK-Stack VM.
+- Filebeat: Monitors log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would look at the log events and send them to ELK-Stack VM.
 
-Metricbeat: Takes the metrics and statistics collected and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The metricbeat would look at the uptime of the system or the system logs.
+- Metricbeat: Takes the metrics and statistics collected and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The metricbeat would look at the uptime of the system or the system logs.
 
 Using the Playbook
 
