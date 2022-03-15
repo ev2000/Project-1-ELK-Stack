@@ -113,9 +113,9 @@ This ELK server is configured to monitor the following machines:
 
 - List the IP addresses of the machines you are monitoring: Web-1 10.0.0.8 , Web-2 10.0.0.9
 
-We have installed the following Beats on these machines: -Specify which Beats you successfully installed: Filebeat , Metricbeat
+We have installed the following Beats on these machines: Filebeat , Metricbeat
 
-These Beats allow us to collect the following information from each machine: -In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
+These Beats allow us to collect the following information from each machine:
 
 - Filebeat: Monitors log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would look at the log events and send them to ELK-Stack VM.
 
