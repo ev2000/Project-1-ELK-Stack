@@ -116,11 +116,11 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 filebeat-playbook.yml playbook nano file - Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
 
-- filebeat-playbook.yml: 
+- filebeat-playbook.yml: https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/filebeat-playbook.yml
 
 metricbeat-playbook.yml playbook nano file - Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
-- filebeat-playbook.yml (i put my metricbeat playbook in the same playbook as my filebeat): 
+- filebeat-playbook.yml (i put my metricbeat playbook in the same playbook as my filebeat): https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/filebeat-playbook.yml
 
 SSH into the control node and follow the steps below:
 
