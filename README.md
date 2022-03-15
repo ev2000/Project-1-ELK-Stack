@@ -3,7 +3,7 @@ Week 13 Project 1 ELK Stack
 
 These files have been tested and used to generate a live ELK deployment on Azure.
 
-![](Diagram/diagram2.png)
+![](Diagrams/diagram2.png)
 
 They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible playbook file may be used to install only certain pieces of it, such as Filebeat.
 
