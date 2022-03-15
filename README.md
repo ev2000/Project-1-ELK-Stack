@@ -115,37 +115,41 @@ Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
 filebeat-playbook.yml playbook nano file - Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
-filebeat-playbook.yml
+
+- filebeat-playbook.yml: 
 
 metricbeat-playbook.yml playbook nano file - Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
-metricbeat-playbook.yml
+
+- filebeat-playbook.yml (i put my metricbeat playbook in the same playbook as my filebeat): 
 
 SSH into the control node and follow the steps below:
 
-Copy the filebeat-config.yml file to /etc/ansible/files.
-Update the /etc/ansible /hosts file to include the ip address of the webserversand the elk-stack.
-Run the playbook, and navigate to: http://[personal vm IP]:5601/app/kibana to check installation.
+ - Copy the filebeat-config.yml file to /etc/ansible/files
+
+ - Update the /etc/ansible /hosts file to include the ip address of the webserversand the elk-stack.
+
+ - Run the playbook, and navigate to: http://[personal vm IP]:5601/app/kibana to check installation.
 
 Bonus
 
-As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc:
+ - As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc:
 
-Open git bash, then ssh azadmin@jump box ip <----------(My Azure jump-box)
+ - Open git bash, then ssh azadmin@jump box ip <----------(My Azure jump-box)
 
-sudo docker container list -a <----------(my container name is: quizzical_solomon)
+ - sudo docker container list -a <----------(my container name is: quizzical_solomon)
 
-sudo docker start quizzical_solomon <----------(start my container)
+ - sudo docker start quizzical_solomon <----------(start my container)
 
-docker attach quizzical_solomon <----------(attach my container)
+ - docker attach quizzical_solomon <----------(attach my container)
 
-cd /etc/ansible/ <----------(to work under ansible file)
+ - cd /etc/ansible/ <----------(to work under ansible file)
 
-ssh-keygen to your web server <----------(get the ssh_rsa.pub key in order to connect)
+ - ssh-keygen to your web server <----------(get the ssh_rsa.pub key in order to connect)
 
-Create a playbook file <----------(use touch to create a nano playbook file)
+ - Create a playbook file <----------(use touch to create a nano playbook file)
 
-nano hosts <----------(update ip on [webservers][elk][elkservers] Example: 10.1.0.4 ansible_python_interpeter=/usr/bin/python3
+ - nano hosts <----------(update ip on [webservers][elk][elkservers] Example: 10.1.0.4 ansible_python_interpeter=/usr/bin/python3
 
-nano ansible.cfg <----------(add remote_user=azureuser to which server you want to use)
+ - nano ansible.cfg <----------(add remote_user=azureuser to which server you want to use)
 
-run ansible-playbook my-playbook.yml <----------(ansible-playbook is the command to run the file)
+ - run ansible-playbook my-playbook.yml <----------(ansible-playbook is the command to run the file)
