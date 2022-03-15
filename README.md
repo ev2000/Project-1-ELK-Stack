@@ -24,19 +24,20 @@ Beats in Use
 Machines Being Monitored
 How to Use the Ansible Build
 Description of the Topology
+
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available , in addition to restricting access to the network.
 
-What aspect of security do load balancers protect? - The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
+ - What aspect of security do load balancers protect? - The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
 
-What is the advantage of a jump box? - Acts as an audit for traffic and a single point where we can manage user accounts.
+ - What is the advantage of a jump box? - Acts as an audit for traffic and a single point where we can manage user accounts.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
-What does Filebeat watch for? - Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
+ - What does Filebeat watch for? - Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
 
-What does Metricbeat record? - Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash.
+ - What does Metricbeat record? - Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
