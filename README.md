@@ -9,7 +9,7 @@ They can be used to either recreate the entire deployment pictured above. Altern
 
 Enter the playbook file:
 
-Install-ELK
+https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/elkplaybook.yml
 
 Hosts
 
