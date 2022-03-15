@@ -84,7 +84,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 What is the main advantage of automating configuration with Ansible? - Ansible is very easy to set up and use, easy to read, no special coding skills are needed, and is open source (free).
 The playbook implements the following tasks:
 
-Install-ELK
+- Install-ELK
 
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
 
