@@ -12,7 +12,7 @@ Enter the playbook file:
 Install ELK:
 https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/elkplaybook.yml
 
-Hosts
+Hosts: https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/Hosts
 
 Ansible:
 https://github.com/ev2000/Project-1-ELK-Stack/blob/main/Ansible/ansible.cfg
